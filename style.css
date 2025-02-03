@@ -4,6 +4,7 @@ body {
     color: #7A6C5D;
     background-color: #FAF9F6;
     font-size: 16px;
+    padding: 0 24px;
 }
 
 h1, h2, p {
@@ -14,14 +15,30 @@ ul {
     font-size: 18px;
 }
 
+.index-menu {
+    margin-top: 50px;
+    padding: 0; 
+}
+
+.index-menu li {
+    display: block;
+    margin: 32px;
+    font-size: 18px;
+    text-align: center;
+}
+
 a {
-    color: #457B9D;
+    color: #F4E1D2;
+    background: #E63946;
+    padding: 8px;
 }
 
 .description {
     color: #457B9D;
     text-align: center;
-    width: 400px;
+    width: 800px;
+    margin: 0 auto;
+    margin-bottom: 10px;
     padding: 10px;
     box-sizing: border-box;
 }
@@ -50,7 +67,13 @@ h2 {
     font-weight: bold;
 }
 
+/* Image container */
+div {
+    text-align: center;
+}
+
 img {
     height: 270px;
     width: auto;
+    margin-bottom: 24px;
 }
