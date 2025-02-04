@@ -1,8 +1,15 @@
 /* Stylesheet */
+:root {
+    --primary-color: #E63946;
+    --seconday-color: #5A4635;
+    --text-color: #6F5B4B;
+    --wall-color: #F4E1D2;
+}
+
 body {
     font-family: "Times New Roman", Tahoma, sans-serif;
-    background-color: #F4E1D2;
-    color: #6F5B4B;
+    background-color: var(--wall-color);
+    color: var(--text-color);
     font-size: 16px;
 }
 
@@ -31,19 +38,19 @@ ul, ol {
 }
 
 a {
-    color: #F4E1D2;
+    color: var(--wall-color);
     text-decoration: none;
-    background: #E63946;
+    background: var(--primary-color);
     padding: 10px 14px;
 }
 
 a:hover {
-    color: #5A4635;
+    color: var(--seconday-color);
     text-decoration: underline;
 }
 
 .description {
-    color: #5A4635;
+    color: var(--seconday-color);
     margin-top: 5px;
     margin-bottom: 10px;
     padding: 10px;
@@ -68,7 +75,7 @@ a:hover {
 }
 
 h1 {
-    color: #E63946;
+    color: var(--primary-color);
     padding: 14px;
 }
 
